@@ -40,7 +40,7 @@ async def slash2(interaction: discord.Interaction, 문의: str):  # 옵션
 
 
 
-    users = await client.fetch_user("731340591115534367")   # 문의 온 문의 내용을 DM으로 받을 사람의 ID
+    users = await client.fetch_user("1060333059511169056")   # 문의 온 문의 내용을 DM으로 받을 사람의 ID
     await users.send("유저 아이디 {}  / 문의 내용 {}".format(interaction.user.id, 문의)) # 그 사람에게 올 유저 ID와 문의 내용
 
 
